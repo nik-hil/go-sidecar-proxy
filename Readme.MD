@@ -13,7 +13,7 @@
  - When our proxy receives a request at port 8000. [See](./proxy/main.go)
     - it will forward the request to our app at port 80
     - if request was successful, our proxy will return the response
-
+ - We will create docker image with dockerfile present inside each folder.
  - We are testing our approach by launching a pod. [See](./k8s/pod.yaml)
  
 ## Testing
